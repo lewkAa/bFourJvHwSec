@@ -11,12 +11,12 @@ public class Main {
         System.out.println(index);
 
         System.out.println("\nВаш индекс массы тела составляет: ");
-        System.out.println((int)service.calculate(100, 1.66));
+        System.out.println(service.calculate(100, 1.66));
 
         System.out.println("\nВаш индекс массы тела составляет: ");
-        System.out.println((int)service.calculate(70, 1.88));
+        System.out.println(service.calculate(70, 1.88));
 
         System.out.println("\nВаш индекс массы тела составляет: ");
-        System.out.println((int)service.calculate(66, 1.75));
+        System.out.println(service.calculate(66, 1.75));
     }
 }
