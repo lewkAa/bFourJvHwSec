@@ -4,7 +4,7 @@ public class Main {
         double weight = 98;  // вес в кг
         double height = 1.87; // рост в метрах
 
-        double calc = service.calculate(weight, height);
+        int calc = service.calculate(weight, height);
         int index = (int)calc;
 
         System.out.println("\nВаш индекс массы тела составляет: ");
